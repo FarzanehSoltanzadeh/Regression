@@ -20,7 +20,9 @@ BGD converges smoothly, indicating an effective path to the optimal solution. It
 
 #### 2. Loss History for Stochastic Gradient Descent (SGD)
 The zoomed-in loss history plot for SGD:
-![SGD Loss History (Zoomed In)](Univariate%20Linear%20Regression/plots/loss_history_zoomIn_sgd.png)
+
+![SGD Loss History (Zoomed In)](Univariate_Linear_Regression/plots/loss_history_zoomIn_sgd.png)
+
 
 We observe that the loss fluctuates more compared to BGD due to the weight updates happening after each data point. This fluctuation can be advantageous in finding an optimal solution faster; also needs a lower learning rate for better convergence.
 
