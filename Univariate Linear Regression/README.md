@@ -14,14 +14,14 @@ The dataset is generated using random numbers. The data is univariate, meaning t
 
 ## 📊 Results
 #### 1. Loss History for Batch Gradient Descent (BGD)
-![BGD Loss History](Univariate%20Linear%20Regression/plots/loss_history_bgd.png)
+![BGD Loss History](plots/loss_history_bgd.png)
 
 BGD converges smoothly, indicating an effective path to the optimal solution. It could be slower for larger datasets since it processes all data points at each iteration.
 
 #### 2. Loss History for Stochastic Gradient Descent (SGD)
 The zoomed-in loss history plot for SGD:
 
-![SGD Loss History (Zoomed In)](Univariate_Linear_Regression/plots/loss_history_zoomIn_sgd.png)
+![SGD Loss History (Zoomed In)](plots/loss_history_zoomIn_sgd.png)
 
 
 We observe that the loss fluctuates more compared to BGD due to the weight updates happening after each data point. This fluctuation can be advantageous in finding an optimal solution faster; also needs a lower learning rate for better convergence.
@@ -29,7 +29,7 @@ We observe that the loss fluctuates more compared to BGD due to the weight updat
 
 #### 3. Loss History for Mini-Batch Gradient Descent (MBGD)
 The zoomed-in loss history for MBGD:
-![MBGD Loss History (Zoomed In)](Univariate_Linear_Regression/plots/loss_history_zoomIn_mbgd.png)
+![MBGD Loss History (Zoomed In)](plots/loss_history_zoomIn_mbgd.png)
 
 The plot indicates that MBGD maintains a balance between the stability of BGD and the speed of SGD. It shows more consistent progress toward minimizing the loss, updating weights after processing smaller batches of data.
 
