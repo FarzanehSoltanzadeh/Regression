@@ -6,7 +6,18 @@ In this project linear regression using three different gradient descent algorit
 - **Mini-Batch Gradient Descent (MBGD)**
 
 ## 📚 Description
-I recently completed the *Supervised Machine Learning: Regression and Classification* course on Coursera. To review my learning I prepared this notebook. In this notebook, I experimented with different parameters to observe how they affect the training process. Importantly, instead of relying on machine learning libraries, I implemented the mathematical formulas for each gradient descent algorithm which deepened my understanding of how these techniques work. The notebook includes interactive plots using `plotly` for better visualization.
+I recently completed the *Supervised Machine Learning: Regression and Classification* course on Coursera. To review my learning I prepared this notebook. In this notebook, I experimented with different parameters to observe how they affect the training process. Importantly, instead of relying on machine learning libraries, I implemented the mathematical formulas for each gradient descent algorithm which deepened my understanding of how these techniques work. The notebook includes interactive plots using `plotly` for better visualization. In the final section, the **OLS (Ordinary Least Squares)** method has also been added as a direct solution to the problem.
+
+### OLS vs Gradient Descent:
+- **OLS (Ordinary Least Squares)**:
+  - Provides an exact solution without requiring iterations.
+  - Works well for smaller datasets.
+  - For complex models or multiple variables, deriving OLS formulas can become difficult.
+
+- **Gradient Descent**:
+  - Approximates the solution through repeated steps.
+  - Handles large datasets and high-dimensional problems effectively.
+  - Requires tuning of the learning rate and number of iterations.
 
 ## Dataset
 The dataset is generated using random numbers. The data is univariate, meaning that it has only one feature (X) and one target variable (Y). The relationship between X and Y follows a linear pattern with some added noise.
